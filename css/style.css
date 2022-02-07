@@ -1,0 +1,401 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* navbar starts here  */
+.navbar{
+   box-shadow: 3px 4px 13px rgb(209, 209, 211);
+}
+.navbar .logo a{
+   color: black;
+   font-size: 28px;
+   font-weight: bold;
+}
+.navbar .logo a:hover{
+    color: #407BFF;
+    transition: 0.2s;
+}
+.navbar .logo a span{
+    color: #407BFF;
+}
+.navbar ul li{
+    padding-right: 18px;
+}
+.navbar .navbar-nav .nav-item .nav-link{
+    color: black;
+    font-size: 19px;
+    font-weight: 600;
+    transition: 0.4s;
+}
+.navbar .navbar-nav .nav-item .nav-link:hover{
+    color: #407BFF;
+}
+/* navbar ends here  */
+/* home Starts here  */
+.home{
+    margin-top: 70px;
+}
+.home h1{
+    margin-top: 120px;
+    font-size: 40px;
+}
+.home span{
+    color: #407BFF;
+}
+.home p{
+    font-size: 27px;
+    padding-left: 10px;
+}
+.home button{
+    color: white;
+    background-color: #407BFF;
+    font-size: 19px;
+    margin-left: 7px;
+    padding: 5px 15px;
+    box-shadow: inset 0 0 0 0 #3f3d3d;
+}
+.home button:hover{
+    box-shadow: inset 300px 0 0 0 #3f3d3d;
+}
+/* home ends here  */
+/* about starts here  */
+.about{
+    background-color: #EFEFEF;
+}
+.about .text h1 {
+    font-size: 35px;
+    color: #407BFF;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.about .text hr{
+    width: 80px;
+    border-width: 4px;
+    border-color: black;
+    margin: auto;
+}
+.about .left-side{
+    margin-top: 80px;
+}
+.about .box{
+    margin-top: 30px;
+}
+.about .box p{
+    margin-left: 30px;
+}
+/* About section ends here  */
+/* Image section starts here  */
+.image .text1 h1 {
+    font-size: 35px;
+    color: #407BFF;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.image .text1 hr{
+    width: 120px;
+    border-width: 3px;
+    border-color: black;
+    margin: auto;
+}
+
+.image .box{
+    cursor: pointer;
+    overflow: hidden;
+    margin-top: 15px;
+}
+.image .box img{
+    transition: 0.5s linear;
+}
+.image .row .box:hover img{
+    transform: scale(1.2);
+
+}
+/* Image section ends here  */
+/* review section starts here  */
+.review{
+    background-color: #222E34;
+    padding-top: 30px;
+}
+.review .row{
+    padding-bottom: 20px;
+    margin-top: 30px;
+}
+.review .text2 h1{
+    font-size: 35px;
+    color: white;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.review .text2 hr{
+    width: 135px;
+    border-width: 3px;
+    border-color: #407BFF;
+    margin: auto;
+}
+.review .card{
+    position: relative;
+    margin-top: 55px;
+    cursor: help;
+}
+.review .card:hover{
+    background-color: #407BFF;
+    transition: all 0.4s linear ;
+}
+.review .row .card-img img{
+    position: absolute;
+    left: 130px;
+    top: -40px;
+    border: 3px solid #407BFF;
+    border-radius: 50%;
+}
+.review .card .card-body .card-text{
+    margin-top: 50px;
+    font-size: 18px;
+}
+.review .card:hover .card-text{
+    color: white;
+    transition: all 0.4s linear;
+}
+.review .card .card-body h1{
+    font-size: 24px;
+    margin-top: 15px;
+    color: #407BFF;
+    transition: 0.5s linear;
+}
+.review .card:hover h1{
+    color: white;
+}
+.review .card .card-body p{
+    margin-top: 10px;
+}
+.review .card:hover p{
+    color: white;
+}
+/* review section ends here */
+/* service section starts here  */
+.service .row{
+    margin-top: 50px;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+.service .row .box .fa-hospital{
+    font-size: 45px;
+    color: #407BFF;
+    margin-top: 10px;
+}
+.service .row .box .fa-users{
+    font-size: 50px;
+    color: #407BFF;
+    margin-top: 10px;
+
+}
+.service .row .box .fa-smile{
+    font-size: 45px;
+    color: #407BFF;
+    margin-top: 10px;
+}
+.service .row .box .fa-procedures{
+    font-size: 45px;
+    color: #407BFF;
+    margin-top: 10px;
+}
+.service .row .box h1{
+    font-size: 28px;
+    padding-top: 10px;
+}
+.service .row .box p{
+    font-size: 18px;
+}
+/* service section ends here  */
+.appoint{
+    background-color: #222E34;
+}
+.appoint .title h1 {
+    font-size: 35px;
+    color: white;
+    font-weight: bold;
+    padding-top: 20px;
+}
+.appoint .title hr{
+    width: 170px;
+    border-width: 3px;
+    border-color: #407BFF;
+    margin: auto;
+    padding-bottom: 35px;
+}
+.appoint .box .row input{
+    width: 100%;
+    border: none; 
+    border-radius: 3px;
+    padding: 9px;
+    margin-top: 9px;
+}
+.appoint .box1 .row input{
+    width: 100%;
+    border: none; 
+    border-radius: 3px;
+    padding: 9px;
+    margin-top: 8px;
+    padding-bottom: 9px;
+}
+.appoint .box1 .row .appoint-time{
+    width: 100%;
+    padding-top: 8px;
+}
+.appoint .box2 .form-group{
+    width: 100%;
+    margin-top: -12px;
+}
+.appoint button{
+    color: white;
+    background-color: #407BFF;
+    font-size: 19px;
+    box-shadow: inset 0 0 0 0 #3f3d3d;
+    margin-bottom: 50px;
+    margin-top: 8px;
+}
+.appoint button:hover{
+    box-shadow: inset 300px 0 0 0 #3f3d3d;
+}
+/* appoint section ends here---- */
+/* posts section  starts here  */
+.posts .card{
+    box-shadow: 5px 5px 20px rgb(202, 201, 201);
+    margin: 15px;
+}
+
+.posts .title h1 {
+    font-size: 35px;
+    color: #407BFF;
+    font-weight: bold;
+    padding-top: 20px;
+}
+.posts .title hr{
+    width: 100px;
+    border-width: 3px;
+    border-color: black;
+    margin: auto;
+    padding-bottom: 35px;
+}
+
+.posts .card i{
+    color: rgb(122, 120, 120);
+}
+.posts .card h1{
+    font-size: 29px;
+    color: rgb(122, 120, 120);
+    font-weight: 600;
+}
+.posts .card:hover h1{
+    color: #407BFF;
+    transition: 0.2s ease;
+}
+.posts .card .card-text{
+    color: rgb(122, 120, 120);
+}
+.posts .card button{
+    color: white;
+    background-color: #407BFF;
+    font-size: 17px;
+    box-shadow: inset 0 0 0 0 #3f3d3d;
+}
+.posts .card button:hover{
+    box-shadow: inset 300px 0 0 0 #3f3d3d;
+}
+/* posts section end here  */
+/* footer section starts here  */
+.footer{
+    background-color: #222E34;
+}
+.footer .logo{
+    margin-top: 40px;
+}
+.footer .logo a{
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+ }
+ .footer .logo a:hover{
+    color: #407BFF;
+    transition: 0.2s;
+ }
+ .footer .logo a span{
+    color: #407BFF;
+ }
+ .footer p{
+    color: white;
+ }
+ .footer .links h1{
+     color: white;
+ }
+ .footer .links ul li{
+    list-style: none;
+    color: white;
+    font-size: 18px;
+ }
+ .footer .links ul li:hover{
+     color: #407BFF;
+ }
+ .footer .share h1{
+    color: white;
+}
+.footer .share ul li{
+   list-style: none;
+   color: white;
+   font-size: 18px;
+}
+.footer .share ul li:hover{
+    color: #407BFF;
+}
+.footer hr{
+    width: 100%;
+    border-width: 3px;
+    border-color: white;
+}
+.footer .last{
+    color: white;
+    padding-bottom: 20px;
+}
+/* Responsive--------  */
+@media only screen and (max-width:991px) and (max-width:768px) {
+    .review .card{
+        position: relative;
+        margin-top: 55px;
+    }
+    .review .row .card-img img{
+        position: absolute;
+        left: 210px;
+        top: -40px;
+        border: 3px solid #407BFF;
+        border-radius: 50%;
+    }
+}
+@media only screen and(max-width:767px) {
+    .review .card{
+        position: relative;
+        margin-top: 55px;
+    }
+    .review .row .card-img img{
+        position: absolute;
+        left: 200px;
+        top: -40px;
+        border: 3px solid #407BFF;
+        border-radius: 50%;
+    }
+    .review .card .card-body{
+        text-align: center;
+    }
+}
+@media only screen and (max-width:492px) {
+    .review .card{
+        position: relative;
+        margin-top: 55px;
+    }
+    .review .row .card-img img{
+        position: absolute;
+        left: 137px;
+        top: -40px;
+        border: 3px solid #407BFF;
+        border-radius: 50%;
+    } 
+}
